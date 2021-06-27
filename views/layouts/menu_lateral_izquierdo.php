@@ -8,7 +8,7 @@
 if(!empty($id_sesion) && ($rol==4 )){//privilegios del programador
 
 	echo '<ul class="sidebar-menu">';
-
+//prueba de connit
 		echo ' <li class="header">MENU</li>';
 		echo ' <li class="treeview"><a href="#"><i class="fa fa-cog fa-lg"></i> <span>Procesos</span> <i class="fa fa-angle-left pull-right"></i></a><ul class="treeview-menu">';
 		//echo '<li><a href="../inventarios/"><i class="fa fa-cubes"></i> <span>Unidades</span></a></li>';	
