@@ -7,8 +7,6 @@
 
 if(!empty($id_sesion) && ($rol==4 )){//privilegios del programador
 
-
-
 	echo '<ul class="sidebar-menu">';
 
 		echo ' <li class="header">MENU</li>';
