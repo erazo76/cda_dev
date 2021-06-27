@@ -46,17 +46,17 @@
       <div class="login-box-body container">
         <h6><p class="login-box-msg">Inicia sesión para entrar en el sistema</p></h6>
 
-       <form action="../controllers/musuarios_controller" method="post" >
+       <form action="../controllers/musuarios_controller" method="post" autocomplete="off" novalidate>
 
 	      <input id="action" name="action" type="hidden" value="login" />
 
           <div class="form-group has-feedback">
-            <input id="usuario" name="usuario" type="text" class="form-control"  placeholder="Usuario" autocomplete="off"/>
+            <input id="usuario" name="usuario" type="text" class="form-control"  placeholder="Usuario" autocomplete="new-text"/>
             <span class="glyphicon glyphicon-user form-control-feedback"></span>
           </div>
 
           <div class="form-group has-feedback">
-            <input id="password1" name="password1" type="password" class="form-control" placeholder="Contraseña" autocomplete="off"/>
+            <input id="password1" name="password1" type="password" class="form-control" placeholder="Contraseña" autocomplete="new-password"/>
             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
           </div>
 

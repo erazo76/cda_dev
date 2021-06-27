@@ -13,6 +13,7 @@ body{
     background-image: url('../dist/img/para4.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     font-family: 'Source Sans Pro', sans-serif;
     color: #2b2828;
     font-weight: 300;    
@@ -51,8 +52,8 @@ body, html {
 }
 
 .container{
-    max-width: 360px;
-    margin: 0 auto;
+    max-width: 300px;
+    margin: 15px auto 15px auto;
     padding: 80px 15px;
     height: 360px;
     text-align: center;
@@ -61,7 +62,7 @@ body, html {
     box-shadow: 0 0 10px 1px rgba(177, 175, 175, 0.2);
     filter: opacity(90%);
     z-index: 1;
-    position: absolute;
+    position:static;
     
       
 }
@@ -117,7 +118,7 @@ form{
     }
     form input:focus{
         background-color: white;
-        width: 300px;
+        width: 230px;
         color: #a52020;
     }
     form button{
@@ -190,3 +191,17 @@ form{
     50%{background-position:100% 48%}
     100%{background-position:0% 50%}
 }
+
+@media screen and (orientation:landscape) 
+and (max-width: 754px) {
+    body { 
+        background-image: url('../dist/img/para4.png');                                                  
+    }
+}
+
+@media screen and (orientation:portrait) 
+and (max-width: 600px) {
+    body {
+        background-image: url('../dist/img/para4b.png');                                                   
+    }
+} 
